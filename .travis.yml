@@ -1,14 +1,14 @@
 sudo: false
 language: node_js
 node_js:
-  - 14 # 使用12的LTS版本
+  - 14 # 使用14的LTS版本
 cache: npm
 branches:
   only:
     - main # 只监听main分支的push
 script:
   - hexo generate # 自动化构建的脚本
-deploy:
+deploy: #部署到github_pages
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
