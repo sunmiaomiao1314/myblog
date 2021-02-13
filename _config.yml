@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: '欢迎来到lemon_s的后花园'
 subtitle: ''
 description: ''
 keywords:
@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://sunmiaomiao1314.github.io
+url:  https://sunmiaomiao1314.github.io
 root: /myblog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -98,11 +98,9 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: 'git'
-  #repo: git@github.com:sunmiaomiao1314/myblog
-  branch: gh-pages
+  type: ''
