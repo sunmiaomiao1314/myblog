@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 欢迎来到lemon_s的
-subtitle: '这是你歇脚的地方'
+title: Hexo
+subtitle: ''
 description: ''
 keywords:
-author: lemon_s
+author: John Doe
 language: en
 timezone: ''
 
@@ -97,8 +97,8 @@ ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
-## Themes: https://github.com/iissnan/hexo-theme-next
-theme: next
+## Themes: https://hexo.io/themes/
+theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
